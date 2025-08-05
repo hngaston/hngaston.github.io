@@ -17,8 +17,6 @@ announcements:
   enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
-
-
 ---
 
 I am a second year Computer Science and Math student at Caltech, where I am advised by Professor Anima Anandkumar. I am passionate about applying machine learning to big problems, including climate change, disaster response, defense, medicine, etc. I am eager to contribute to innovative projects that leverage these technologies to make a positive impact.
