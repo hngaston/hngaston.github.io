@@ -9,19 +9,12 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-resume",
-          title: "Resume",
+  },{id: "nav-resume",
+          title: "resume",
           description: "Current Resume (updated 8/25)",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/resume/";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',
