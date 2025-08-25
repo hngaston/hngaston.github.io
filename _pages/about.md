@@ -18,7 +18,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 ---
 
-I am a second year student Computer Science and Mathematics student at Caltech, where I am advised by Professor Anima Anandkumar.
+I am a second-year student Computer Science and Mathematics student at Caltech, where I am advised by Professor Anima Anandkumar.
 
 I am passionate about applying machine learning to big problems, including climate change, disaster response, defense, medicine, etc. I am eager to contribute to innovative projects that leverage these technologies to make a positive impact.
 
