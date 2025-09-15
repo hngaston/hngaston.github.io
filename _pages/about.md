@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://caltech.edu'>Caltech</a>. hgaston@caltech.edu. <a href='https://www.linkedin.com/in/henry-gaston'>LinkedIn</a>. <a href='https://github.com/hngaston'>GitHub<\a>.
+subtitle: <a href='https://caltech.edu'>Caltech</a>. hgaston@caltech.edu. <a href='https://www.linkedin.com/in/henry-gaston'>LinkedIn</a>. <a href='https://github.com/hngaston'>GitHub</a>.
 
 profile:
   align: right
