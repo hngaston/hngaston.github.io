@@ -1,4 +1,4 @@
-I am a second-year Computer Science and Math student at Caltech, where I am advised by Professor Anima Anandkumar. My current research focuses on developing models that analyze Earth data to monitor natural and built environments. I am excited about projects where I can continue to apply AI for good.
+I am a second-year Computer Science and Data Science student at Caltech, where I am advised by Professor Anima Anandkumar. My current research focuses on developing models that analyze Earth data to monitor natural and built environments. I am excited about projects where I can continue to apply AI for good.
 
 My academic and research experiences have created a strong interest in applying machine learning to meaningful and challenging problems in areas such as climate change, medicine, disaster response, and defense. I am particularly excited about roles where I can help develop technology to directly address meaningful problems in these domains and others.
 
