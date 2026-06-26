@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Henry Gaston</title>
+    <meta
+      name="description"
+      content="Henry Gaston — Computer Science and Data Science at Caltech. Machine learning and computer vision for the physical world."
+    />
+
+    <!-- Open Graph / social preview -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Henry Gaston" />
+    <meta
+      property="og:description"
+      content="Computer Science and Data Science at Caltech. Machine learning and computer vision for the physical world."
+    />
+    <meta property="og:url" content="https://hngaston.github.io" />
+    <meta property="og:image" content="https://hngaston.github.io/assets/img/henry.jpg" />
+    <meta name="theme-color" content="#fbfaf8" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#14141a" media="(prefers-color-scheme: dark)" />
+
+    <link rel="canonical" href="https://hngaston.github.io" />
+    <link rel="icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;text y='.9em' font-size='90'&gt;🛰️&lt;/text&gt;&lt;/svg&gt;" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <main class="page">
+      <header class="intro">
+        <div class="intro__text">
+          <h1 class="name">Henry Gaston</h1>
+          <p class="tagline">
+            Computer Science &amp; Data Science at
+            <a href="https://caltech.edu">Caltech</a>
+          </p>
+          <ul class="contacts" aria-label="Contact and links">
+            <li><a href="mailto:hgaston@caltech.edu">hgaston@caltech.edu</a></li>
+            <li><a href="https://www.linkedin.com/in/henry-gaston">LinkedIn</a></li>
+            <li><a href="https://github.com/hngaston">GitHub</a></li>
+          </ul>
+        </div>
+
+        <figure class="intro__photo">
+          <img
+            src="assets/img/henry.jpg"
+            srcset="assets/img/henry.jpg 900w, assets/img/henry@2x.jpg 1400w"
+            sizes="(max-width: 640px) 60vw, 260px"
+            alt="Portrait of Henry Gaston"
+            width="900"
+            height="1048"
+            loading="eager"
+          />
+        </figure>
+      </header>
+
+      <section class="bio" aria-label="About">
+        <p>
+          I'm an undergraduate at Caltech studying Computer Science and Data Science, where I am academically
+          advised by Professor Anima Anandkumar. I am passionate about researching and applying Machine Learning
+          and Computer Vision to some of the world's most pressing problems.
+        </p>
+
+        <p>
+          This summer I'm interning at
+          <strong>Smith + Nephew Robotics</strong>, where I'm
+          <span class="muted">[building agents for intra-operative robot-surgeon interaction]</span>.
+        </p>
+
+        <p>
+          At Caltech, I research with Professor Hannah Druckenmiller as a David C. Elliot SURF
+          fellow, collaborating with University of Maryland Professor Ritwik Gupta to build transformer
+          models that detect new construction from the latent space of geospatial foundation models
+          like AlphaEarth. Our goal is to quantify Clean Water Act non-compliance and study how
+          land-use deregulation shapes development across the country. I also work with Professor
+          Georgia Gkioxari on vision models that track environmental change over time and forecast
+          its impact.
+        </p>
+
+        <p>
+          Previously, I worked with Professor Zhiwei Feng at the University of Pittsburgh on a
+          computational pipeline for antibody redesign.
+        </p>
+
+        <p>
+          I'm broadly excited about machine learning and computer vision for high-impact domains —
+          medicine, climate, disaster response, etc. — and about building technology that
+          addresses real problems directly.
+        </p>
+      </section>
+
+      <!--
+        ──────────────────────────────────────────────────────────────────────
+        FUTURE SECTIONS — uncomment and fill in as you have things to show.
+        The styling for these is already in assets/css/style.css.
+        ──────────────────────────────────────────────────────────────────────
+
+      <section class="collection" aria-label="Publications">
+        <h2 class="section-title">Publications</h2>
+        <ul class="entries">
+          <li class="entry">
+            <h3 class="entry__title">
+              <a href="PAPER_URL">Paper title goes here</a>
+            </h3>
+            <p class="entry__meta">Authors · Venue, 2026</p>
+            <p class="entry__desc">One sentence on what it does and why it matters.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="collection" aria-label="Projects">
+        <h2 class="section-title">Projects</h2>
+        <ul class="entries">
+          <li class="entry">
+            <h3 class="entry__title"><a href="PROJECT_URL">Project name</a></h3>
+            <p class="entry__meta">Tech · 2026</p>
+            <p class="entry__desc">Short description.</p>
+          </li>
+        </ul>
+      </section>
+      -->
+
+      <footer class="foot">
+        <span>© <span id="year">2026</span> Henry Gaston</span>
+      </footer>
+    </main>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
