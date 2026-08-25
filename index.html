@@ -37,31 +37,29 @@
 
   <body>
     <main class="page">
-      <header class="intro">
-        <div class="intro__text">
-          <h1 class="name">Henry Gaston</h1>
-          <p class="tagline">
-            Computer Science &amp; Data Science at
-            <a href="https://caltech.edu">Caltech</a>
-          </p>
-          <ul class="contacts" aria-label="Contact and links">
-            <li><a href="mailto:hgaston@caltech.edu">hgaston@caltech.edu</a></li>
-            <li><a href="https://www.linkedin.com/in/henry-gaston">LinkedIn</a></li>
-            <li><a href="https://github.com/hngaston">GitHub</a></li>
-          </ul>
-        </div>
+      <figure class="intro__photo">
+        <img
+          src="assets/img/headshot.jpg"
+          srcset="assets/img/headshot.jpg 600w, assets/img/headshot@2x.jpg 1200w"
+          sizes="(max-width: 560px) 45vw, 230px"
+          alt="Portrait of Henry Gaston"
+          width="600"
+          height="600"
+          loading="eager"
+        />
+      </figure>
 
-        <figure class="intro__photo">
-          <img
-            src="assets/img/headshot.jpg"
-            srcset="assets/img/headshot.jpg 600w, assets/img/headshot@2x.jpg 1200w"
-            sizes="(max-width: 560px) 38vw, 150px"
-            alt="Portrait of Henry Gaston"
-            width="600"
-            height="600"
-            loading="eager"
-          />
-        </figure>
+      <header class="intro">
+        <h1 class="name">Henry Gaston</h1>
+        <p class="tagline">
+          Computer Science &amp; Data Science at
+          <a href="https://caltech.edu">Caltech</a>
+        </p>
+        <ul class="contacts" aria-label="Contact and links">
+          <li><a href="mailto:hgaston@caltech.edu">hgaston@caltech.edu</a></li>
+          <li><a href="https://www.linkedin.com/in/henry-gaston">LinkedIn</a></li>
+          <li><a href="https://github.com/hngaston">GitHub</a></li>
+        </ul>
       </header>
 
       <section class="bio" aria-label="About">
