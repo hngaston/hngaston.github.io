@@ -91,16 +91,7 @@ a:hover {
 /* ── Intro ─────────────────────────────────────────────────────────────── */
 
 .intro {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  gap: clamp(1.25rem, 3vw, 2rem);
-  margin-bottom: 2.75rem;
-}
-
-.intro__text {
-  flex: 0 1 auto;
-  min-width: 0;
+  margin-bottom: 2.25rem;
 }
 
 .name {
@@ -149,13 +140,14 @@ a:hover {
   color: var(--link-hover);
 }
 
-/* Square, and sized to match the height of .intro__text. The width tracks
-   the same viewport scaling as .name so the two stay level as it reflows. */
+/* Floated so the header and the opening bio paragraphs wrap around it: a
+   large photo then costs no vertical space of its own, which is what caused
+   the dead band between the header and the body text. */
 .intro__photo {
-  flex: 0 0 auto;
+  float: right;
+  width: clamp(150px, 24vw, 230px);
   aspect-ratio: 1 / 1;
-  margin: 0;
-  width: clamp(120px, calc(6.5vw + 87px), 142px);
+  margin: 0.35rem 0 1.25rem 2rem;
 }
 
 .intro__photo img {
@@ -191,6 +183,7 @@ a:hover {
 /* ── Optional future sections (publications / projects) ─────────────────── */
 
 .collection {
+  clear: both;
   margin-top: 3.25rem;
   padding-top: 2.25rem;
   border-top: 1px solid var(--rule);
@@ -239,6 +232,7 @@ a:hover {
 /* ── Footer ────────────────────────────────────────────────────────────── */
 
 .foot {
+  clear: both;
   margin-top: 3.5rem;
   padding-top: 1.75rem;
   border-top: 1px solid var(--rule);
@@ -249,13 +243,9 @@ a:hover {
 /* ── Responsive ────────────────────────────────────────────────────────── */
 
 @media (max-width: 560px) {
-  .intro {
-    flex-direction: column-reverse;
-    align-items: flex-start;
-  }
-
   .intro__photo {
-    align-self: flex-start;
-    width: clamp(120px, 38vw, 170px);
+    float: none;
+    width: clamp(140px, 45vw, 190px);
+    margin: 0 0 1.25rem;
   }
 }
