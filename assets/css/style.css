@@ -149,15 +149,19 @@ a:hover {
   color: var(--link-hover);
 }
 
+/* Square, and sized to match the height of .intro__text. The width tracks
+   the same viewport scaling as .name so the two stay level as it reflows. */
 .intro__photo {
   flex: 0 0 auto;
-  margin: 0.4rem 0 0;
-  width: clamp(120px, 26vw, 190px);
+  aspect-ratio: 1 / 1;
+  margin: 0;
+  width: clamp(120px, calc(6.5vw + 87px), 142px);
 }
 
 .intro__photo img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   display: block;
   border-radius: 10px;
   box-shadow:
@@ -251,6 +255,7 @@ a:hover {
   }
 
   .intro__photo {
+    align-self: flex-start;
     width: clamp(120px, 38vw, 170px);
   }
 }
