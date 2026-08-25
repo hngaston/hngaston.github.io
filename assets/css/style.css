@@ -93,13 +93,13 @@ a:hover {
 .intro {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
-  gap: clamp(1.5rem, 5vw, 3rem);
+  justify-content: flex-start;
+  gap: clamp(1.25rem, 3vw, 2rem);
   margin-bottom: 2.75rem;
 }
 
 .intro__text {
-  flex: 1 1 auto;
+  flex: 0 1 auto;
   min-width: 0;
 }
 
