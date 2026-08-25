@@ -1,2 +1,5 @@
 .DS_Store
 _site/
+
+# Full-res photo originals — derivatives in assets/img/ are what ship
+assets/img/Goode_Headshot.jpg
